@@ -1,5 +1,6 @@
-from authentication.models import ADMIN, MODERATOR
 from rest_framework import permissions
+
+from authentication.models import ADMIN, MODERATOR
 
 
 class AdminOrReadOnly(permissions.BasePermission):

@@ -1,10 +1,11 @@
-from api_yamdb.settings import DEFAULT_FROM_EMAIL
 from django.contrib.auth import get_user_model
 from django.contrib.auth.tokens import default_token_generator
 from django.core.mail import send_mail
 from django.shortcuts import get_object_or_404
 from rest_framework import serializers
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
+
+from api_yamdb.settings import DEFAULT_FROM_EMAIL
 
 User = get_user_model()
 

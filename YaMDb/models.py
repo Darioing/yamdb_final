@@ -1,6 +1,7 @@
-from authentication.models import User
 from django.core.validators import MaxValueValidator, MinValueValidator
 from django.db import models
+
+from authentication.models import User
 
 from .custom_validators import year_validator
 
