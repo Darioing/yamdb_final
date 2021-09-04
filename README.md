@@ -1,6 +1,7 @@
 # yamdb_final
 ### Описание
 Данный проект выполняется для курса Python-разработчик от Яндекс.Практикума
+
 [![Django-app workflow](https://github.com/Darioing/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?branch=master)](https://github.com/Darioing/yamdb_final/actions/workflows/yamdb_workflow.yml)
 ### Технологии
 В проекте используются:
